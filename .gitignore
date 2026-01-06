@@ -1,0 +1,42 @@
+# --- PROJECT: Core Build and Artifacts --- #
+# cache directories
+build/
+out/
+bin/
+.gradle
+.kotlin
+
+# generated outputs
+*.class
+*.jar
+*.war
+*.ear
+*.zip
+hs_err_pid*
+
+# --- LOCAL: IDE and OS --- #
+# IntelliJ IDEA
+.idea/
+*.iws
+*.iml
+*.ipr
+
+# VS Code
+.vscode/
+
+# Operating System
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Log/Temporary Files
+*.log
+log/
+temp/
+
+
+# --- EXCEPTIONS: Include files to preserve environment settings --- #
+!gradlew
+!gradlew.bat
+!gradle/wrapper/gradle-wrapper.jar
+!gradle/wrapper/gradle-wrapper.properties
