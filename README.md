@@ -146,12 +146,27 @@ CurlingTime/
 ### Project Package Hierarchy
 ```
 curlingtime/
-├── Launcher.java
+├── Launcher.java                                     < entry point
 │
 ├── app/
-│   ├── CurlingTimeApp.java
+│   ├── CurlingTimeApp.java                           < application
 │   └── Loader.java                                   < interface
+│
+├── 
+│   ├──
+│   └──
+│
+├──
 │
 └──
 ```
 
+### Resource Folder Hierarchy
+```
+curlingtime/
+├── values/                                        <- *.properties files
+└── views/                                         <- *.fxml files
+    ├── clockdisplay.fxml
+    ├── dashboard.fxml
+    ├── settings.fxml
+    └── setup.fxml
