@@ -119,3 +119,39 @@ Other Actions:
 - utils: general helpers and validators
 - entities: data models
 
+
+## Project Architecture
+### Top-Level Hierarchy
+```
+CurlingTime/
+├── .gitignore
+├── build.gradle.kts
+├── settings.gradle.kts
+├── README.md
+│
+└── src/
+    ├── main/
+    │   ├── java/                                  <- Project Source
+    │   │   ├── module-info.java
+    │   │   └── katestrophic/                      <- "group"
+    │   │       └── curlingtime/                   <- Project Packages
+    │   └── resources/katestrophic/curlingtime/    <- Project Resources
+    │       ├── values/                            <- *.properties files
+    │       └── views/                             <- All .fxml files
+    └── test/                                      <- Test Folder
+        ├── tjava/
+        └── tresources/
+```
+
+### Project Package Hierarchy
+```
+curlingtime/
+├── Launcher.java
+│
+├── app/
+│   ├── CurlingTimeApp.java
+│   └── Loader.java                                   < interface
+│
+└──
+```
+
