@@ -148,23 +148,43 @@ CurlingTime/
 curlingtime/
 ├── Launcher.java                                     < entry point
 │
-├── app/
-│   ├── CurlingTimeApp.java                           < application
-│   └── Loader.java                                   < interface
+├── app/                                           <-- JavaFX application
+│   ├── CurlingTimeApp.java                           < JavaFX application lifecycle
+│   ├── Loader.java                                   < interface to load configs and resources
+│   └── loaders/
 │
-├── 
-│   ├──
-│   └──
+├── core/                                          <-- core logic
+│   ├── constants/
+│   ├── enums/
+│   ├── managers/
+│   └── services/
 │
-├──
+├── features/                                      <-- UI layer
+│   ├── controllers/
+│   └── services/
 │
-└──
+├── game/                                          <-- aspects of a game
+│   ├── builders/
+│   ├── entities/
+│   ├── events/
+│   └── factories/
+│
+└── utils/
+    ├── adaptors/
+    ├── helpers/
+    └── validators/
 ```
 
 ### Resource Folder Hierarchy
 ```
 curlingtime/
 ├── values/                                        <- *.properties files
+│   ├── app.properties
+│   ├── default.properties
+│   ├── layout.properties
+│   ├── paths.properties
+│   ├── strings.properties
+│   └── user.properties
 └── views/                                         <- *.fxml files
     ├── clockdisplay.fxml
     ├── dashboard.fxml
