@@ -1,5 +1,5 @@
 /// @purpose manages dependencies and modules
-module katestrophic.curlingtime.timer {
+module katestrophic.curlingtime {
     requires javafx.controls;
     requires javafx.fxml;
 
