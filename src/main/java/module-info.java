@@ -1,5 +1,5 @@
 /// @purpose manages dependencies and modules
-module katestrophic.curlingtime.timer {
+module katestrophic.curlingtime {
     requires javafx.controls;
     requires javafx.fxml;
 
@@ -8,4 +8,5 @@ module katestrophic.curlingtime.timer {
 
     // exports: makes the main package available to JavaFX runtime
     exports katestrophic.curlingtime;
+    exports katestrophic.curlingtime.app;
 }
