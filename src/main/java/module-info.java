@@ -8,4 +8,5 @@ module katestrophic.curlingtime {
 
     // exports: makes the main package available to JavaFX runtime
     exports katestrophic.curlingtime;
+    exports katestrophic.curlingtime.app;
 }
