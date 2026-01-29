@@ -1,0 +1,20 @@
+{
+  "name": "curlingtime",
+  "version": "1.0.0",
+  "description": "GitHub Repository <br>\r https://github.com/katestrophic/CurlingTimekeeper.git",
+  "homepage": "https://github.com/katestrophic/CurlingTime#readme",
+  "bugs": {
+    "url": "https://github.com/katestrophic/CurlingTime/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/katestrophic/CurlingTime.git"
+  },
+  "license": "ISC",
+  "author": "Kate Botten",
+  "type": "commonjs",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
