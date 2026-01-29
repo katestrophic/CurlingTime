@@ -1,0 +1,32 @@
+
+# PROJECT SPECIFIC -------------- |
+# --- Depedencies and Modules     |
+node_modules/
+
+# --- Build Output                |
+build/
+dist/
+
+# --- Logs                        |
+logs
+*.log
+
+# --- Private                     |
+.env
+
+
+# IDE SPECIFIC ------------------ |
+# --- IntelleJ Idea               |
+.idea/
+
+# --- Visual Studio Code          |
+.vscode
+
+
+# DEVICE SPECIFIC --------------- |
+.DS_Store
+Thumbs.db
+
+
+# EXCEPTIONS -------------------- |
+!src/
